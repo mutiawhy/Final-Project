@@ -27,7 +27,8 @@ I constructed new variables containing hour and day information from datetime va
 2. Feature Engineering.  
 Since some algorithms can’t work with categorical data directly, Source, name ,day and hour columns that contain text values are need to be transformed to numerical values using one-hot encoding. I also used standarscaler to standardize the unit of some data.
 
-3. Modelling.                                                                                                                            I implemented various regression models: Linear Regression, SVR, LGBM, Random Forest Regressor, XGBoost Regressor and evaluated their performance on the test data and validation data using KFold. Hyperparameter tuning for the selected model has been done with the help of RandomizedSearchCV.
+3. Modelling.          
+I implemented various regression models: Linear Regression, SVR, LGBM, Random Forest Regressor, XGBoost Regressor and evaluated their performance on the test data and validation data using KFold. Hyperparameter tuning for the selected model has been done with the help of RandomizedSearchCV.
 
  
 ## Result
