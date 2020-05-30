@@ -4,11 +4,11 @@ Uber and Lyft are the examples of ride-sourcing companies that use mobile app an
 with their privately-owned vehicles. 
 
 ## Project Purposes
-Predict uber and lyft potential prices based on the characteristic of weather and time. 
+Predicting uber and lyft potential prices based on the characteristic of weather and time. 
 
-Get to know both of the prices from one simple app.
+Presenting both of the prices from one simple app.
 
-Give some informations about what factors could affect price of uber/lyft in Boston.   
+Providing some informations about what factors could affect price of uber/lyft in Boston.   
 
 
 
