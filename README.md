@@ -23,13 +23,14 @@ Independent Variable: Type of Car, Name of Car , Source, Distance,  Destination,
 ## Step
 1. Data Prepocessing 
 
-I converted column containing epoch time to actual datetime in car and weather dataset then merged both of them. 
+  I converted column containing epoch time to actual datetime in car and weather dataset then merged both of them. 
 
-There were missing values in price and rain columns, i decided to drop the missing values in price column since i cant compute manually and for rain columns i filled these missing values with zero value which indicate there was no rain on that day. 
+  There were missing values in price and rain columns, i decided to drop the missing values in price column since i cant compute  
+  manually and for rain columns i filled these missing values with zero value which indicate there was no rain on that day. 
 
-I constructed new variables containing hour and day information from datetime variables for EDA purposes.
+  I constructed new variables containing hour and day information from datetime variables for EDA purposes.
 
-Finally, I dropped some irrelevant data that isn't necessary and doesn't fit in the context of the problem that is trying to be solved
+  Finally, I dropped some irrelevant data that isn't necessary and doesn't fit in the context of the problem that is trying to be solved
 
 2. Feature Engineering.  
 Since some algorithms can’t work with categorical data directly, Source, name ,day and hour columns that contain text values are need to be transformed to numerical values using one-hot encoding. 
