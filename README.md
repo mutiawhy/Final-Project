@@ -27,8 +27,9 @@ I constructed new variables containing hour and day information from datetime va
 2. Feature Engineering.  
 Since some algorithms can’t work with categorical data directly, Source, name ,day and hour columns that contain text values are need to be transformed to numerical values using one-hot encoding. I also used standarscaler to standardize the unit of some data.
 
-3. Modelling
-I implemented various regression models: Linear Regression, SVR, LGBM, Random Forest Regressor and XGBoost Regressorand evaluated their performance on the test data and validation data using KFold. Hyperparameter tuning for the best model has been done with the help of RandomizedSearchCV.
+3. Modelling.
+
+I implemented various regression models: Linear Regression, SVR, LGBM, Random Forest Regressor, XGBoost Regressor and evaluated their performance on the test data and validation data using KFold. Hyperparameter tuning for the best model has been done with the help of RandomizedSearchCV.
 
  
 ## Result
@@ -40,7 +41,7 @@ Name of car and distance are considered as the most significant variable for rid
 
 
 
-###  This is how this machine learning model can be used in apps.
+##  This is how this machine learning model can be used in apps.
 ![image](https://user-images.githubusercontent.com/60774724/83336314-a4d2ba80-a2dc-11ea-8a9c-6879dd813030.png)
 
 
