@@ -40,7 +40,7 @@ Name of car and distance are considered as the most significant variable for rid
 
 
 
-This is how this machine learning model can be used in apps.
+###  This is how this machine learning model can be used in apps.
 ![image](https://user-images.githubusercontent.com/60774724/83336314-a4d2ba80-a2dc-11ea-8a9c-6879dd813030.png)
 
 
