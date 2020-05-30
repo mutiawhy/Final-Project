@@ -1,4 +1,4 @@
-#  Uber and Lyft Price Prediction Based on Time and Weather Attributes (Case study: Boston, USA)
+##  Uber and Lyft Price Prediction Based on Time and Weather Attributes (Case study: Boston, USA)
 
 Uber and Lyft are the examples of ride-sourcing companies that use mobile app and work through connecting customers who are willing to pay for a ride with independent drivers who are willing to provide a ride 
 with their privately-owned vehicles. 
@@ -6,7 +6,7 @@ with their privately-owned vehicles.
 ## Project Purpose
 Predicting uber and lyft potential prices based on the characteristic of weather and time. 
 
-Presenting both of the prices in one simple app.
+Presenting both of the prices in one simple apps.
 
 Providing some informations about what factors could affect price of uber/lyft in Boston.   
 
@@ -25,7 +25,7 @@ I have converted column containing epoch time to actual datetime in car and weat
 I constructed new variables containing hour and day information from datetime variables in this stage for EDA purposes. Finally, I dropped some irrelevant data that weren't necessary and didn't fit in the context of the problem that was trying to be solved
 
 2. Feature Engineering.  
-Since some algorithms can’t work with categorical data directly, Source, name ,day and hour columns that contain text values are need to be transformed to numerical values using one-hot encoding. I alse used standarscaler to standardize the unit of some data.
+Since some algorithms can’t work with categorical data directly, Source, name ,day and hour columns that contain text values are need to be transformed to numerical values using one-hot encoding. I also used standarscaler to standardize the unit of some data.
 
 3. Modelling
 I implemented various regression models: Linear Regression, SVR, LGBM, Random Forest Regressor and XGBoost Regressorand evaluated their performance on the test data and validation data using KFold. Hyperparameter tuning for the best model has been done with the help of RandomizedSearchCV.
@@ -33,14 +33,14 @@ I implemented various regression models: Linear Regression, SVR, LGBM, Random Fo
  
 ## Result
 
-All models perform well and XGB Regressor with hyperparameter gives a minimum MA and RMSE amongst all models but i decided to choose Random Forest Regressor with hyperparameter. 
+All models perform well and XGB Regressor with hyperparameter gives a minimum MA and RMSE amongst all models but { decided to choose Random Forest Regressor with hyperparameter. 
 
 
 Name of car and distance are considered as the most significant variable for ride sharing price prediction in final model. 
 
 
 
-This is how the model can be used in app
+This is how this machine learning model can be used in apps.
 ![image](https://user-images.githubusercontent.com/60774724/83336314-a4d2ba80-a2dc-11ea-8a9c-6879dd813030.png)
 
 
