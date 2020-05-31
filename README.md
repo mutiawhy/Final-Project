@@ -21,7 +21,7 @@ The independent variable: Type of Car, Name of Car , Source, Distance,  Destinat
 
 ## Step
 1. Data Prepocessing.                                                                                                                      
-I have converted column containing epoch time to actual datetime in cab and weather dataset then merged both of them. There were missing values in price and rain columns, i decided to drop the missing values in price column since the price can't be computed randomly and for rain column, I filled the missing values with zero value which indicate there was no rain on that day. 
+I have converted column containing epoch time to actual datetime in cab and weather dataset then merged both of them. There was missing values in price and rain columns, i decided to drop the missing values in price column since the price can't be computed randomly and for rain column, I filled the missing values with zero value which indicate there was no rain on that day. 
 I constructed new variables containing hour and day information from datetime variables in this stage for EDA purposes. Finally, I dropped some irrelevant data that weren't necessary and didn't fit in the context of the problem that was trying to be solved
 
 2. Feature Engineering.  
@@ -33,7 +33,7 @@ I have implemented various regression models: Linear Regression, SVR, LGBM, Rand
  
 ## Result
 
-All models perform well and XGB Regressor with hyperparameter gives a minimum MA and RMSE amongst all models but { decided to choose Random Forest Regressor with hyperparameter. 
+All models perform well and XGB Regressor with hyperparameter gives a minimum MA and RMSE amongst all models but I decided to choose Random Forest Regressor with hyperparameter. 
 
 
 Name of car and distance are considered as the most significant variable for ride sharing price prediction in final model. 
