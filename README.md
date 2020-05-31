@@ -33,7 +33,7 @@ I have implemented various regression models: Linear Regression, SVR, LGBM, Rand
  
 ## Result
 
-All models perform well and XGB Regressor with hyperparameter gives a minimum MA and RMSE amongst all models but I decided to choose Random Forest Regressor with hyperparameter. 
+All models perform well and XGB Regressor with hyperparameter gives a minimum MAE and RMSE amongst all models but I decided to choose Random Forest Regressor with hyperparameter. 
 
 
 Name of car and distance are considered as the most significant variable for ride sharing price prediction in final model. 
